@@ -1,4 +1,13 @@
-﻿// Copyright (c) 2023 bradson
+Hi, your mod breaks mods that change the perspective of trees so that pawns are rendered behind (like regrowth core), there is a need to disable:
+- "DrawDynamicThings" under DynamicDrawManagerPatches
+- "PrintPlane" under PrintImprovements
+
+Is a fix possible?
+Thank you.
+
+
+
+// Copyright (c) 2023 bradson
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at https://mozilla.org/MPL/2.0/.
